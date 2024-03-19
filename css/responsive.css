@@ -1,0 +1,397 @@
+@media screen and (max-width:1081px) {
+    .sectionSeven .navigation {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionSeven .navigation div:nth-of-type(1),
+    .sectionSeven .navigation div:nth-of-type(2),
+    .sectionSeven .navigation div:nth-of-type(3),
+    .sectionSeven .navigation div:nth-of-type(4),
+    .sectionSeven .navigation div:nth-of-type(5) {
+        width: 100%;
+        padding:0%;
+        border-top: solid 1px lightgrey;
+    }
+    
+    .sectionSeven .navigation .blog , 
+    .sectionSeven .navigation .contacts {
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .sectionSeven .contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionSeven .contact .corpinfo {
+        width: 100%;
+        height: 33.33%;
+        text-align: left;
+        padding: 20px;
+        margin-left: 1%;
+        align-content: center;
+        justify-self: center;
+    }
+
+    .sectionSeven .contact .corpinfo:nth-child(1) {
+        border-top: solid 1px lightgrey;
+    }
+
+    .sectionSeven .contact .corpinfo:nth-child(2) {
+        border-top: solid 1px lightgrey;
+        border-bottom: solid 1px lightgrey;
+    }
+
+    .sectionSeven .contact .corpinfo:nth-child(3) {
+        border-bottom: solid 1px lightgrey;
+    }
+
+    .sectionSeven .contact .subscribe > input {
+        width: 85%;
+    }
+
+    .sectionSeven p > img {
+        margin-right:-17px;
+        margin-bottom: -13px;
+    }
+
+    .sectionSeven .reviews-google {
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+    }
+
+    .sectionSeven .contact .socials .brands {
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+    }
+}
+
+@media  screen and (max-width: 1024px) {
+    .sectionOne {
+        width: auto;
+    }
+
+    .sectionOne .banner .banner-Text {
+        width: 40%;
+        margin-top: 100px;
+    }
+
+    .sectionOne .banner .banner-Text > h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .sectionOne .banner .banner-Text > button {
+        padding: 16px 40px;
+    }
+
+    .sectionFour button {
+        margin: -15px;
+    }
+    .sectionFive {
+        height: 150vh;
+    }
+
+    .sectionFive .users {
+        height: 60%;
+        /* border: solid 1px; */
+        display: grid;
+        grid-template-columns: repeat(2, 280px);
+        gap: 20px;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    /* .sectionSeven .contact .subscribe > input {
+        height: 50px;
+        width: 200px;
+        border-radius: 5px 0 0 5px;
+        border-right: none;
+        border-color: #fafafa;
+    } */
+    
+}
+
+@media screen and (max-width: 830px) {
+    .sectionOne {
+        width: 100%;
+    }
+
+    .sectionOne .banner {
+        width:100%
+    }
+
+    .sectionOne .banner .banner-Text {
+        width: 60%;
+    }
+
+    .sectionTwo {
+        height: 170vh;
+        padding: 20px 0;
+    }
+    .sectionTwo .title {
+        height: auto;
+    }
+
+    .sectionTwo .principles {
+        height: 92%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sectionTwo .principles .principle {
+        height: 30%;
+        width: 50%;
+    }
+
+    .sectionThree {
+        height: 154vh;
+        display:block;
+    }
+
+    .sectionThree .image,
+    .sectionThree .imageDescription {
+    height: 50%;
+    width: 100%;
+    }
+
+    .sectionThree .imageDescription .content > button {
+        margin: auto;
+    }
+    
+    .sectionFour {
+        height: 184vh;
+    }
+
+    .sectionFour .menu {
+        display: flex;
+        flex-direction: column;
+        height: 70%;
+    }
+
+    .sectionFour .menu .menu-item {
+        height: 25%;
+        width: 40%;
+    }
+
+    .sectionFour .menu > button {
+        margin: auto;
+    }
+
+    .sectionFive {
+        height: 174vh;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .sectionOne .navbar {
+        justify-content: center;
+    }
+
+    .sectionOne .navbar .navigation {
+        display: none;
+    }
+    
+    .sectionOne .banner {
+        width: 100%;
+    }
+
+    .sectionOne .banner .banner-Text {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .sectionTwo {
+        height: 170vh;
+    }
+    .sectionTwo .title {
+        height: auto;
+    }
+    .sectionTwo .principles {
+        height: 92%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sectionTwo .principle {
+        height: 30%;
+        width: 50%;
+    }
+
+    .sectionFour {
+        height: 144vh;
+    }
+
+    .sectionFour .menu {
+        height: 60%;
+    }
+
+    .sectionFour .menu > button {
+       margin: auto;
+    }
+    .sectionFive {
+        height: 220vh;
+    }
+
+    .sectionFive .users {
+        height: 80%;
+        /* border: solid 1px; */
+        display: grid;
+        grid-template-columns: repeat(1, 280px);
+        gap: 20px;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    .sectionSix .form > h2 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .sectionSix .form > p {
+        font-size: 12px;
+    }
+
+    .sectionSix .form > label {
+    margin-left: -350px;
+}
+
+    .sectionSix .content {
+        width: 100%;
+    }
+
+    .sectionSeven .contact .subscribe > input {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .sectionOne .banner {
+        width:100%
+    }
+
+    .sectionOne .banner-Text {
+        height: 100%;
+        width: 100%;
+        /* margin-top: 5px; */
+    }
+
+    .banner-Text > h1 {
+        margin-top: 10px;
+    }
+
+    .sectionTwo {
+        height: 220vh;
+    }
+
+    .sectionTwo .title {
+        height: auto;
+    }
+
+    .sectionTwo .principles {
+        height: 92%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sectionTwo .principle {
+        height: 30%;
+        width: 90%;
+    }
+
+    .sectionFour {
+        height: 200vh;
+    }
+
+    .sectionFour .menu {
+        height: 65%;
+    }
+
+    .sectionFour .menu .menu-item {
+        width: 60%;
+    }
+    .sectionFive {
+        height: 250vh;
+    }
+
+    .sectionSix .content {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionSix .form > h2 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    
+    .sectionSix .form > p {
+        font-size: 12px;
+    }
+    
+    .sectionSix .form > label {
+        margin-left: -350px;
+    }
+
+    .sectionSeven .contact .subscribe > input {
+        width: 75%;
+    }
+}
+
+@media  screen and (max-width: 452px) {
+    .sectionSix .form .inputcontainer {
+        height: 55%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionSix .form .inputcontainer > input {
+        width: 97%;
+        border-radius: 5px;
+        border: solid 5px;
+        border-color: #fafafa;
+    }
+
+    .sectionSix .form .inputcontainer > button {
+        padding: 14px 10px 16px 10px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    .sectionSeven .contact .subscribe > input {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 442px) {
+    .sectionOne .banner .banner-Text {
+        width: 100%;
+    }
+
+    .sectionFour .menu {
+        height: 60%;
+    }
+    .sectionFour .menu .menu-item {
+        width: 70%;
+    }
+
+    .sectionSix .form > h2 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    .sectionSix .form > p {
+        font-size: 10px;
+    }
+
+    .sectionSeven .contact .subscribe > input {
+        width: 65%;
+    }
+}

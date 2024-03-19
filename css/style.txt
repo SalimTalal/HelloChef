@@ -1,0 +1,33 @@
+.sectionOne .bannerText {
+    height: 60%;
+    width: 30%;
+    margin-top: 150px;
+    border: solid 1px black;
+    justify-content: center;
+    text-align: center;
+}
+
+.sectionOne .bannerText h1 {
+    font-size: 200px;
+    color: #484848;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+
+.sectionOne .bannerText p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.sectionOne .bannerText button {
+    font-size: 18px;
+    text-transform: capitalize;
+    border: none;
+    background-color: #e42e13;
+    color: #ffffff;
+    padding: 18px 56px;
+    border-radius: 50px;
+    font-weight: 500;
+}

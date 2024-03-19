@@ -1,0 +1,705 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+/* ========================================== */
+/* SECTION ONE */
+/* ========================================== */
+.sectionOne {
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+.sectionOne .navbar {
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    /* background-color: bisque; */
+}
+
+.sectionOne .logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #e42f17;
+}
+
+.link {
+    display: inline;
+    margin: 0 10px;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: #7c7c7c;
+}
+
+.link .signin-Btn {
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #e42a12;
+    color: #fef0ef;
+    font-weight: 600;
+}
+
+.sectionOne li {
+    display: inline-block;
+    margin: 0 14px;
+    font-size: 15px;
+     font-weight: 400;
+     color: #484848;
+    /* border: solid 1px black; */
+}
+
+.sectionOne .signin-Btn {
+    padding: 13px 18px;
+    background-color: #e42e13;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.sectionOne .banner {
+    height: 87%;
+    /* background-color: yellow; */
+    background-image: url(/images/banner.webp);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.sectionOne .banner .banner-Text {
+    height: 60%;
+    width: 30%;
+    /* background-color: #36BD2C; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.sectionOne .banner-Text > button {
+    width: 230px;
+    height: 65px;
+}
+
+.sectionOne h1 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #4a4949;
+}
+
+.sectionOne p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #8f8d8b;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 56px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: none;
+    background-color: #e42f17;
+    color: #fce9e7;
+    padding: 0 24px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+/* ========================================== */
+/* SECTION TWO */
+/* ========================================== */
+.sectionTwo {
+    height: 87vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #fafafa;
+}
+
+.sectionTwo .title {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.sectionTwo .title > h2 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #515151;
+}
+
+.sectionTwo .title > P {
+    font-weight: 300;
+    color: #929292;
+}
+
+.sectionTwo .principles {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: -60px;
+    /* background-color: pink; */
+}
+
+.sectionTwo .principles .principle > h3 {
+    font-size: 55px;
+    font-weight: 400;
+    color: #4a4949;
+}
+
+.sectionTwo .principle {
+    height: 100%;
+    width: 25%;
+    /* background-color: #647ad0; */
+}
+
+.sectionTwo .principle .image {
+    height: 50%;
+    background-color: white;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.sectionTwo .fa-check {
+    color: #36BD2C;
+    font-size: 12px;
+}
+
+.sectionTwo  .convenience .image {
+    background-image: url(/images/box_over.webp);
+}
+
+.sectionTwo  .variety .image {
+    background-image: url(/images/variety-hi.webp);
+}
+
+.sectionTwo  .deliciousness .image {
+    background-image: url(/images/salmon_katsu.webp);
+}
+
+/* ========================================== */
+/* SECTION THREE */
+/* ========================================== */
+.sectionThree {
+    height: 77vh;
+    display: flex;
+}
+
+.sectionThree .image,
+.sectionThree .imageDescription {
+    height: 100%;
+    width: 50%;
+}
+
+.sectionThree .image {
+    background-image: url(/images/Family_cooking.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.sectionThree .imageDescription {
+    background-color: #fbe6e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sectionThree .content {
+    height: 80%;
+    width: 80%;
+}
+
+.sectionThree h2 {
+    font-size: 36px;
+    color: #e42e13;
+}
+
+.sectionThree p:nth-of-type(1) {
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.sectionThree p {
+    font-weight: 600;
+}
+
+.sectionThree p span {
+    color: #ff946e;
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+.sectionThree .content > button {
+    width: 200px;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 10;
+    margin-Top: 30px;
+}
+
+/* ========================================== */
+/* SECTION FOUR */
+/* ========================================== */
+.sectionFour {
+    height: 87vh;
+    text-align: center;
+}
+
+.sectionFour h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #4a4949;
+    padding: 50px 0 10px 0;
+}
+
+.sectionFour p {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 20px;
+    font-weight: 300;
+    color: #4a4949;
+}
+
+.sectionFour .menu {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sectionFour .menu-item {
+    height: 75%;
+    width: 22%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.sectionFour span {
+    padding: 6px 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.sectionFour .vegan {
+    background-image: url(/images/vegan.webp);
+}
+
+.sectionFour .weekly-classic {
+    background-image: url(/images/weekly_classic.webp);
+}
+
+.sectionFour .vegetarian {
+    background-image: url(/images/Vegetarian.webp);
+}
+
+.sectionFour .vegan span {
+    background-color: #d8f4a4;
+    color: #78a42b;
+}
+
+.sectionFour .weekly-classic span {
+    background-color: #d9e3fd;
+    color: #647ad0;
+}
+
+.sectionFour .vegetarian span {
+    background-color: #c8f5da;
+    color: #4ab074;
+}
+
+.sectionFour button {
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 18px 46px;
+    border-radius: 30px;
+}
+
+/* ========================================== */
+/* SECTION FIVE */
+/* ========================================== */
+.sectionFive {
+    height: 87vh;
+    text-align: center;
+    background-color: #f3f4f6;
+    row-gap: 30px;
+}
+
+.sectionFive h2 {
+    font-size: 34px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #484848;
+    margin: 30px 5px -10px 0;
+}
+
+.sectionFive h2 > img {
+    height: 48px;
+    margin: 30px 5px -10px 0;
+}
+
+.sectionFive .users {
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.sectionFive .user {
+    background-position: center;
+    background-size: cover;
+}
+
+.sectionFive .one {
+    background-image: url(/images/one.webp);
+}
+
+.sectionFive .two {
+    background-image: url(/images/two.webp);
+}
+
+.sectionFive .three {
+    background-image: url(/images/three.webp);
+}
+
+.sectionFive .four {
+    background-image: url(/images/four.webp);
+}
+
+.sectionFive p {
+    font-size: 26px;
+    font-weight: 300;
+    color: #484848;
+}
+
+.sectionFive p > span {
+    color: #e42a13;
+}
+
+.sectionFive p:nth-of-type(3) {
+    font-size: 18px;
+}
+
+.sectionFive p > img {
+    height: 24px;
+    margin-bottom: -6px;
+}
+
+.sectionFive .fa-solid {
+    color: #f6ad00;
+}
+
+/* .sectionFive .bcorpbannerSection {
+    height: 40%;
+    background-color: #f6ad00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionFive .bcorpbannerSection .bcorpbanner {
+    height: 25%;
+    width: 76%;
+    background: aqua;
+    border:solid 1px black;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    border-radius: 12px;
+    padding: 20px 20px 18px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.sectionFive .nopurgebcorpbanner {
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    border-radius: 12px;
+    padding: 20px 20px 18px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+ */
+/* ========================================== */
+/* SECTION SIX */
+/* ========================================== */
+.sectionSix {
+    height: 77vh;
+    background-image:url(/images/subscribe.webp);
+    background-position: bottom;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionSix .content {
+    height: 70%;
+    width: 70%;
+}
+
+.sectionSix .content > .form {
+    height: 70%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.sectionSix .form > h2 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #484848;
+    padding: 15px 0;
+}
+
+.sectionSix .form > p {
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+.sectionSix .form .inputcontainer {
+    /* background-color:yellow; */
+    height: 55%;
+}
+.sectionSix .form .inputcontainer > label {
+    font-size: 14px;
+    color: #75757580;
+    margin-left: -350px;
+}
+
+.sectionSix .form .inputcontainer > input {
+    height: 50px;
+    width: 350px;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    border-color: #fafafa;;
+}
+
+.sectionSix .form .inputcontainer > button {
+    padding: 14px 10px 16px 10px;
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+    margin-bottom: -15px;
+    font-size: 16px;
+}
+
+.sectionSix .content > p {
+    text-align: center;
+    font-size: 12px;
+    color: #75757580;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* ========================================== */
+/* SECTION SEVEN */
+/* ========================================== */
+.sectionSeven {
+    box-sizing: border-box;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionSeven h2 {
+    font-size: 28px;
+    color: #e42f17;
+    margin-top: 30px;
+}
+
+.sectionSeven h2,
+.sectionSeven p {
+    text-align: center;
+}
+
+.sectionSeven h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #484848;
+}
+
+.sectionSeven .navigation {
+    box-sizing: border-box;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* background-color:aquamarine; */
+}
+
+.sectionSeven .navigation div {
+    padding: 20px;
+    float: left;
+}
+
+.sectionSeven .navigation div:nth-of-type(1) {
+    width: 12.67%;
+}
+
+.sectionSeven .navigation div:nth-of-type(2) {
+    width: 12.67%;
+}
+
+.sectionSeven .navigation div:nth-of-type(3) {
+    width: 12.67%;
+}
+
+.sectionSeven .navigation div:nth-of-type(4) {
+    width: 23%;
+}
+
+.sectionSeven .navigation div:nth-of-type(5) {
+    width: 21%;
+}
+
+.sectionSeven .navigation div > span {
+    color: #757575;
+}
+
+.sectionSeven .navigation .blog {
+    text-align: right;
+}
+
+.sectionSeven .navigation .blog > img {
+    height: 60px;
+    width: 100px;
+   border-radius: 10px;
+}
+
+.sectionSeven .navigation .contacts {
+    text-align: right;
+}
+
+.sectionSeven .contact {
+    box-sizing: border-box;
+    width: 85%;
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: pink; */
+}
+
+.sectionSeven .contact .subscribe {
+    text-align: left;
+    padding: 20px;
+    /* background-color: #647ad0; */
+}
+
+.sectionSeven .contact .subscribe > label {
+    font-size: 14px;
+    color:#757575;
+}
+
+.sectionSeven .contact .subscribe > input {
+    height: 50px;
+    width: 300px;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    border-color: #fafafa;;
+}
+
+.sectionSeven .contact .subscribe > button {
+    padding: 12px 10px 14px 8px;
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+    margin-bottom: -15px;
+    font-size: 16px;
+    height: 55px;
+}
+
+.sectionSeven .contact .reviews {
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: gold; */
+}
+
+.sectionSeven .reviews-google {
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sectionSeven p > img {
+    height: 40px;
+    margin-bottom: -13px;
+}
+
+.sectionSeven .contact .socials {
+    text-align: right;
+    /* background-color: chartreuse; */
+}
+
+.sectionSeven .contact .socials .brands {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sectionSeven .fa-solid {
+    color: #f6ad00;
+    font-size: 22px;
+}
+
+.sectionSeven .fa-brands {
+    color: #757575;
+    font-size: 35px;
+}
+
+.sectionSeven .fa-heart {
+    color: red;
+}
+
+.sectionSeven .bold {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sectionSeven .red {
+    color: red;
+}
